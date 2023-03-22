@@ -3,9 +3,14 @@
 
 #include <iostream>
 
+void Goodbye()
+{
+    std::cout << "Goodbye World!\n";
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    Goodbye();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
