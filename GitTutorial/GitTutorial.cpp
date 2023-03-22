@@ -3,9 +3,14 @@
 
 #include <iostream>
 
-int main()
+void Greeting()
 {
     std::cout << "Hello World!\n";
+}
+
+int main()
+{
+    Greeting();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
