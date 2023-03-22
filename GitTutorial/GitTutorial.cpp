@@ -8,9 +8,16 @@ void Goodbye()
     std::cout << "Goodbye World!\n";
 }
 
+
+void Greeting()
+{
+	std::cout << "Hello World!\n";
+}
+
 int main()
 {
-    Goodbye();
+    Greeting();
+	Goodbye();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
