@@ -17,6 +17,7 @@ void Greeting()
 int main()
 {
     Greeting();
+	std::cout << "This is a Test!\n";
 	Goodbye();
 }
 
